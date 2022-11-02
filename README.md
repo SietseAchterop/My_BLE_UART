@@ -16,7 +16,7 @@ This often with one of the following error messages:
 > GenericFailure<CharacteristicValueUpdateError>(code:CharacteristicValueUpdateError.unknown, essage: "Cannot write client characteristic config descriptor (code 3) with characteristic UUID 6e4000....")E7:05...
 
 What also is strange there seems to be a kind of switch, either there is no error for some time of this error occurs every time.
-Is the something amiss with the working with Android 8?
+Is there something amiss with the working with Android 8?
 
 The peripheral is an Arduino Nano BLE running the Nordic UART example.
 
