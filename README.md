@@ -1,9 +1,10 @@
-## Note
+## Not
 
 This is an updated version of the flutter_reactive_ble_uart app.
 
-1. Newer flutter, android studio and libraries are used.
-2. And main.dart is updated accordinly.
+1. Newer flutter, android studio and library versions are used.
+2. Use permission_handler main.dart.
+3. Some minor changes in main.dart to make it non-nullable.
 
 Everything seems to work, there is however one strange problem.
 While is works when used with a Samsung tablet (Android 10) there is a problem with a Samsung S7 smartphone (Android 8).
@@ -16,6 +17,8 @@ This often with one of the following error messages:
 
 What also is strange there seems to be a kind of switch, either there is no error for some time of this error occurs every time.
 Is the something amiss with the working with Android 8?
+
+The peripheral is an Arduino Nano BLE running the Nordic UART example.
 
 Below the original README
 

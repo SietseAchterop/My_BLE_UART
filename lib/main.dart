@@ -38,13 +38,13 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   final flutterReactiveBle = FlutterReactiveBle();
   List<DiscoveredDevice> _foundBleUARTDevices = [];
-  late  StreamSubscription<DiscoveredDevice> _scanStream;
-  late  Stream<ConnectionStateUpdate> _currentConnectionStream;
-  late  StreamSubscription<ConnectionStateUpdate> _connection;
-  late  QualifiedCharacteristic _txCharacteristic;
-  late  QualifiedCharacteristic _rxCharacteristic;
-  late  Stream<List<int>> _receivedDataStream;
-  late  TextEditingController _dataToSendText;
+  late StreamSubscription<DiscoveredDevice> _scanStream;
+  late Stream<ConnectionStateUpdate> _currentConnectionStream;
+  late StreamSubscription<ConnectionStateUpdate> _connection;
+  late QualifiedCharacteristic _txCharacteristic;
+  late QualifiedCharacteristic _rxCharacteristic;
+  late Stream<List<int>> _receivedDataStream;
+  late TextEditingController _dataToSendText;
   bool _scanning = false;
   bool _connected = false;
   String _logTexts = "";
