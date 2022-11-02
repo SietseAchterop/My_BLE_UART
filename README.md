@@ -1,3 +1,24 @@
+## Note
+
+This is an updated version of the flutter_reactive_ble_uart app.
+
+1. Newer flutter, android studio and libraries are used.
+2. And main.dart is updated accordinly.
+
+Everything seems to work, there is however one strange problem.
+While is works when used with a Samsung tablet (Android 10) there is a problem with a Samsung S7 smartphone (Android 8).
+Often, after connecting, there is a immediate disconnect.
+This often with one of the following error messages:
+
+> GenericFailure<CharacteristicValueUpdateError>(code:CharacteristicValueUpdateError.unknown, message: "Disconnected from MAC='XX:XX:XX:XX:XX:XX with status 19 (GATT_CONN_TERMINATE_PEER_USER")E7:05...  ($id)
+
+> GenericFailure<CharacteristicValueUpdateError>(code:CharacteristicValueUpdateError.unknown, essage: "Cannot write client characteristic config descriptor (code 3) with characteristic UUID 6e4000....")E7:05...
+
+What also is strange there seems to be a kind of switch, either there is no error for some time of this error occurs every time.
+Is the something amiss with the working with Android 8?
+
+Below the original README
+
 # flutter reactive BLE UART demo app
 
 This demo app shows an usecase for using flutter_reactive_ble library for building a UART emulation over BLE.
