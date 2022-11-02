@@ -1,4 +1,4 @@
-## Not
+## Note
 
 This is an updated version of the flutter_reactive_ble_uart app.
 
